@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" parallel="tests" thread-count="1">
+	<test name="QAToolsTest1">
+	<parameter name="testCaseID" value="1"></parameter>
+		<classes>
+			<class name="com.toolsqa.tests.Fillform"></class>
+		</classes>
+	</test>
+	<test name="QAToolsTest2">
+	<parameter name="testCaseID" value="22"></parameter>
+		<classes>
+			<class name="com.toolsqa.tests.Fillform"></class>
+		</classes>
+	</test>
+<test name="QAToolsTest3">
+	<parameter name="testCaseID" value="3"></parameter>
+		<classes>
+			<class name="com.toolsqa.tests.Fillform"></class>
+		</classes>
+	</test>
+	<test name="QAToolsTest5">
+	<parameter name="testCaseID" value="5"></parameter>
+		<classes>
+			<class name="com.toolsqa.tests.Fillform"></class>
+		</classes>
+	</test>
+	<test name="QAToolsTest4">
+	<parameter name="testCaseID" value="4"></parameter>
+		<classes>
+			<class name="com.toolsqa.tests.Fillform"></class>
+		</classes>
+	</test>
+	</suite>
+	
